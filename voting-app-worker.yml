@@ -5,7 +5,7 @@ metadata:
   name: voting-app-worker
   labels:
     name: voting-app-worker
-    app: demo
+    app: demo-app
 spec:
   containers:
     - name: voting-app-worker
