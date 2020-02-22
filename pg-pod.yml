@@ -14,3 +14,4 @@ spec:
         - containerPort: 5432
       command: ["/bin/sh"]
       args: ["-c", "sleep 10 && echo Sleep expired > /dev/termination-log"]
+      terminationMessagePath: "/tmp/my-log"
