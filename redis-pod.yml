@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Pod
 
 metadata:
-  name: redis-pod
+  name: redis
   labels:
-    name: redis-pod
+    name: redis
     app: demo-app
 spec:
   containers:
