@@ -2,15 +2,13 @@ apiVersion: v1
 kind: Pod
 
 metadata:
-  name: pg-pod
+  name: postgres-pod
   labels:
-    name: pg-pod
+    name: postgres-pod
     app: demo-app
 spec:
   containers:
-    - name: pg
+    - name: postgres
       image: postgres:9.4
       ports:
         - containerPort: 5432
-        
-      
