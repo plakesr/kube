@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: redis-pod
   labels:
-    name: redis-pod
+    name: redis
     app: demo-app
 spec:
   containers:
