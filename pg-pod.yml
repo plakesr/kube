@@ -12,3 +12,5 @@ spec:
       image: postgres:9.4
       ports:
         - containerPort: 5432
+      command: ["/bin/sh"]
+      args: ["-c", "sleep 10 && echo Sleep expired > /dev/termination-log"]
