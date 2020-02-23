@@ -11,5 +11,5 @@ spec:
     - port: 5432
       targetPort: 5432
   selector:
-      name: pg-pod
-      app: demo-app
+      name: postgres-pod
+      sapp: demo-app
